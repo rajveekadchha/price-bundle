@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bundles</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="header">YAY! It’s BOGO</h1>
+
+      <div class="offers">
+        <div class="offer-item-shadow">
+          <div class="offer-item selected">
+            <div class="expanded">
+              <div class="amount">20% Off</div>
+              <div class="desc">
+                <div class="desc-listing">
+                  <div class="radio-border">
+                    <input type="radio" name="offer" value="1" checked />
+                  </div>
+                  <div class="desc-listing-text">
+                    <div class="buy-get">
+                      Buy 1 Get 2 <span class="discount">20% Off</span>
+                    </div>
+                    <div class="offer-price">$18.00 USD</div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <table class="options" id="options-1">
+              <tr>
+                <th></th>
+                <th>Size</th>
+                <th>Color</th>
+              </tr>
+              <tr>
+                <td>#1</td>
+                <td>
+                  <select id="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id="color">
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                    <option value="Blue">Blue</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>#2</td>
+                <td>
+                  <select id="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id="color">
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                    <option value="Blue">Blue</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="offer-item-shadow">
+          <div class="offer-item">
+            <div class="expanded">
+              <div class="amount">30% Off</div>
+              <div class="desc">
+                <div class="desc-listing">
+                  <div class="radio-border">
+                    <input type="radio" name="offer" value="2" />
+                  </div>
+                  <div class="desc-listing-text">
+                    <div class="buy-get">
+                      Buy 2 Get 4<span class="discount">30%Off</span>
+                    </div>
+                    <div class="offer-price">$24.00 USD</div>
+                  </div>
+                </div>
+                <div class="most-popular">Most Popular</div>
+              </div>
+            </div>
+            <table class="options" style="display: none" id="options-2">
+              <tr>
+                <th></th>
+                <th>Size</th>
+                <th>Color</th>
+              </tr>
+              <tr>
+                <td>#1</td>
+                <td>
+                  <select id="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id="color">
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                    <option value="Blue">Blue</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>#2</td>
+                <td>
+                  <select id="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id="color">
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                    <option value="Blue">Blue</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="offer-item-shadow">
+          <div class="offer-item">
+            <div class="expanded">
+              <div class="amount">40% Off</div>
+              <div class="desc">
+                <div class="desc-listing">
+                  <div class="radio-border">
+                    <input type="radio" name="offer" value="3" />
+                  </div>
+                  <div class="desc-listing-text">
+                    <div class="buy-get">
+                      Buy 3 Get 6<span class="discount">40% Off</span>
+                    </div>
+                    <div class="offer-price">
+                      $36.00 USD<span class="discount-price">$10.00 USD</span>
+                    </div>
+                  </div>
+                </div>
+                <div></div>
+              </div>
+            </div>
+            <table class="options" style="display: none" id="options-3">
+              <tr>
+                <th></th>
+                <th>Size</th>
+                <th>Color</th>
+              </tr>
+              <tr>
+                <td>#1</td>
+                <td>
+                  <select id="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id="color">
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                    <option value="Blue">Blue</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>#2</td>
+                <td>
+                  <select id="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id="color">
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                    <option value="Blue">Blue</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <span class="free-delivery">Free Delivery</span>
+        <span class="total">Total: $18.00 USD</span>
+      </div>
+
+      <button class="add-to-cart"> <img style="width: 16px;" src="./plus.svg">Add to Cart</button>
+
+      <div class="powered-by">Powered by <span class="brand">Pumper</span></div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
